@@ -1,0 +1,226 @@
+html {
+  font-size: 16px;
+}
+.social-links {
+  margin-top: 30px;
+  padding-right: 40px; 
+  display: flex;
+  justify-content: flex-end;
+}
+.social-links i {
+  animation-delay: 2s;
+  animation-duration: 2s;
+  padding: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.greet {
+  animation-duration: 2s;
+}
+.intro {
+  animation-delay: 1s;
+  animation-duration: 2s;
+}
+hr {
+  animation-delay: 2s;
+  animation-duration: 2s;
+}
+
+.bio {
+  animation-delay: 2s;
+  animation-duration: 2s;
+}
+.work {
+  margin-top: 55px;
+  animation-delay: 2s;
+  animation-duration: 2s;
+}
+.node {
+  color: #215732;
+}
+.react {
+  color: #00d8ff;
+}
+.vue {
+  color: #35495e;
+}
+.caret-down {
+  text-align: center;
+  margin: 0 auto;
+
+}
+.fa-chevron-down {
+  animation-delay: 2s;
+  animation-duration: 2s;
+  margin-top: 20px;
+  color: #fff;
+}
+.contact-links i {
+  animation-delay: 2s;
+  animation-duration: 2s;
+  padding: 10px 10px;
+  color: #fff;
+  font-size: 24px;
+}
+
+
+@media all and (min-width: 600px) {
+  .main {
+    margin: 0 auto;
+    width: 80%;
+    padding: 5% 0;
+  }
+  h2 {
+    line-height: 1.6em;
+  }
+  hr {
+    margin-top: 50px;
+  }
+  .work {
+    text-align: center;
+  }
+  .work h1 {
+    font-size: 2rem;
+  }
+  .fa-chevron-down {
+    margin-top: 30px;
+  }
+  .projects {
+    animation-delay: 2s;
+    animation-duration: 2s;
+    display: flex;
+    justify-content: center;
+  }
+  .project {
+    margin-right: 10px;
+    margin-top: 40px;
+    height: 360px;
+    width: 360px;
+  }
+  .red {
+    text-align: center;
+    border: 1px solid #35495e;
+  }
+  .green {
+    text-align: center;
+  }
+  .blue {
+    text-align: center;
+  }
+  .orange {
+    text-align: center;
+  }
+  img {
+    width: 70%;
+    height: 70%;
+  }
+  .row {
+    margin-top: 50px;
+    width: 83%;
+  }
+  .two {
+    margin-top: 40px;
+  }
+  .contact {
+    margin: 50px 0;
+    animation-delay: 2s;
+    animation-duration: 2s;
+  }
+  .contact h1 {
+    text-align: center;
+  }
+  .contact-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 7%;
+  }
+  .copyright {
+    text-align: center;
+  }
+  }
+  @media all and (max-width: 540px) {
+    .social-links {
+      padding-left: 20px; 
+    }
+    .main {
+      margin-top: 50px;
+      padding: 0 25px;
+      font-size: 0.8rem;
+    }
+    h2 {
+      line-height: 1.6em;
+      margin-top: 25px;
+    }
+    .work {
+      margin-top: 40px;
+    }
+    .work h1 {
+      padding-top: 50px;
+      text-align: center;
+      font-size: 1.4rem;
+    }
+    .work h3 {
+      text-align: center;
+      font-size: 1rem;
+    }
+    hr {
+      margin-top: 30px;
+  }
+  .projects {
+    margin: 0 auto;
+    text-align: center;
+    animation-delay: 2s;
+    animation-duration: 2s;
+  }
+  .project {
+    margin: 40px auto;
+    height: 250px;
+    width: 250px;
+  }
+  .project h3 {
+    font-size: 0.8rem;
+  }
+  .red {
+    text-align: center;
+    border: 1px solid #35495e;
+  }
+  .green {
+    text-align: center;
+  }
+  .blue {
+    text-align: center;
+  }
+  .orange {
+    text-align: center;
+  }
+  img {
+    width: 70%;
+    height: 70%;
+  }
+  .row {
+    margin-top: 50px;
+    width: 83%;
+  }
+  .two {
+    margin-top: 40px;
+  }
+  .contact {
+    margin: 50px 0;
+    animation-delay: 2s;
+    animation-duration: 2s;
+  }
+  .contact h1 {
+    text-align: center;
+  }
+  .copyright {
+    text-align: center;
+  }
+   .contact-links a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 7%;
+    }
+  
+}
